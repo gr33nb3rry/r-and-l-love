@@ -8,7 +8,7 @@
 <body>
     <div class="header">
         <div class="logo_container">
-            <div class="logo"></div>
+            <img src="img\r_and_l_logo.png" height="100px;">
         </div>
         <hr style="margin:0;margin-top:120px;border:0;background-color:#252525;height:2px;width:100%;">
         <div class="header_container">
@@ -16,7 +16,7 @@
                 ГЛАВНАЯ
             </div></a>
             <p class="unselectable">|</p>
-            <a href="movies.html"><div class="header_category">
+            <a href="movies.html"><div class="header_category current">
                 ФИЛЬМЫ
             </div></a>
             <p class="unselectable">|</p>
@@ -26,8 +26,18 @@
         </div>
     </div>
     <div class="content">
+        <h1 style="font-family:Arial;font-size:24px;color:grey;">Мы киноэксперты</h1>
+        <div class="movie_sort_container">
+            <button onclick="setShowMovie('all')">Все</button>
+            <button onclick="setShowMovie('anime')">Аниме</button>
+            <button onclick="setShowMovie('cartoon')">Мульты</button>
+            <button onclick="setShowMovie('movie')">Фильмы</button>
+        </div>
         <div id="content_movies_container">
         </div>
+    </div>
+    <div class="footer">
+        
     </div>
 </body>
 <script src="movies.js"></script>

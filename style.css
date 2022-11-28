@@ -36,13 +36,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #151515;
+    background-color: #171717;
     color: white;
-}
-.logo {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(255, 0, 0);
 }
 .header_category {
     padding: 10px 20px 10px 20px;
@@ -50,8 +45,11 @@ a {
     font-family: Arial, sans-serif;
     font-weight: bold;
     color: white;
-    background-color: #151515;
+    background-color: #171717;
     transition: all ease .3s;
+}
+.current {
+    color: #ff0065;
 }
 .header_category:hover {
     background-color: #404040;
@@ -59,12 +57,28 @@ a {
 }
 
 .content {
-    background-color: #f2d0ff;
+    background-color: #666666;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.movie_sort_container {
+    width: 67%;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.movie_sort_container button {
+    padding: 10px 20px 10px 20px;
+    background-color: #171717;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+.movie_sort_container button:hover {
+    background-color: #ff0065;
 }
 #content_movies_container {
     width: 67%;
@@ -94,6 +108,15 @@ a {
     position: absolute;
     bottom: 0px;
 }
+.movie_date {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: #ff0065;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+}
 .movie_rating {
     width: 280px;
     padding: 10px;
@@ -102,6 +125,7 @@ a {
     justify-content: space-between;
     font-family: Arial, sans-serif;
     color: white;
+    font-weight: bold;
     font-size: 28px;
     background-color: rgba(0, 0, 0, .5);
 }
@@ -120,4 +144,13 @@ a {
     text-shadow: 1px 1px 4px #000000;
     font-size: 28px;
     word-wrap: break-word;
+}
+
+.footer {
+    background-color: #464646;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
