@@ -52,7 +52,7 @@ function pasteMovies(){
         
         movie = `<div class="content_movie">
         <div style="overflow:hidden;">
-        <a href=""><img src="${movies[i][1]}" width="300px" height="424px" class="movie_image"></a>
+        <a href=""><img src="${movies[i][1]}" class="movie_image"></a>
         </div>
         <p class="movie_date">
             ${movies[i][5]}
@@ -60,10 +60,10 @@ function pasteMovies(){
         <div class="movie_info">
             <p class="movie_title">${movies[i][0]}</p>
             <div class="movie_rating">
-                <div class="movie_rating_container" style="color:${color1};">
+                <div class="movie_rating_container unselectable" style="color:${color1};">
                     <img src="img/man_emoji.png" width="50px">${movies[i][2]}
                 </div>
-                <div class="movie_rating_container" style="color:${color2};">${movies[i][3]}
+                <div class="movie_rating_container unselectable" style="color:${color2};">${movies[i][3]}
                     <img src="img/girl_emoji.png" width="50px">
                 </div>
             </div>
