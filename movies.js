@@ -25,7 +25,22 @@ addMovie(
     "Кот в сапогах", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/6b4df5c2-ad1e-4e2d-8651-7eee69dc24a1/1920x", 
     8, 10, "cartoon", "22.11.2022");
-
+addMovie(
+    "Чудачество любви не помеха! ТВ-1", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/829a2313-d0b9-4f4a-b4fe-d52803ce005e/1920x", 
+    7.2, 5.5, "anime", "06.12.2022");
+addMovie(
+    "Спасатели Малибу", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/d641b6b1-37b1-44f5-8ed8-a8a7691a4384/1920x", 
+    6.5, 8, "movie", "08.12.2022");
+addMovie(
+    "Хочу. не могу", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/61718eee-8302-4f22-b55e-9f1b4755c6a5/1920x", 
+    6, 8.8, "movie", "11.12.2022");
+addMovie(
+    "Муви 43", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/3c770614-d030-4f97-bc77-844f87feab92/1920x", 
+    2.5, 3, "movie", "12.12.2022");
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
