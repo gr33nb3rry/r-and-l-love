@@ -41,6 +41,10 @@ addMovie(
     "Муви 43", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/3c770614-d030-4f97-bc77-844f87feab92/1920x", 
     2.5, 3, "movie", "12.12.2022");
+addMovie(
+    "Хочу съесть твою поджелудочную железу", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/045c20d3-9d4d-45c1-b6dd-918b97f7b825/1920x", 
+    6, 6, "anime", "15.12.2022");
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
