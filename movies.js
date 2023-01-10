@@ -46,9 +46,14 @@ addMovie(
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/045c20d3-9d4d-45c1-b6dd-918b97f7b825/1920x", 
     6, 6, "anime", "15.12.2022");
 addMovie(
-"На пятьдесят оттенков темнее", 
-"https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/9e2b9af9-d161-4050-a390-84d9ff512bac/1920x", 
-6.8, 7.5, "movie", "03.01.2023");
+    "На пятьдесят оттенков темнее", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/9e2b9af9-d161-4050-a390-84d9ff512bac/1920x", 
+    6.8, 7.5, "movie", "03.01.2023");
+addMovie(
+    "Сад изящных слов", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/af28ea5e-5a3f-488a-a58f-253d053108fe/1920x", 
+    9, 9, "anime", "08.01.2023");
+
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
