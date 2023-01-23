@@ -53,6 +53,10 @@ addMovie(
     "Сад изящных слов", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/af28ea5e-5a3f-488a-a58f-253d053108fe/1920x", 
     9, 9, "anime", "08.01.2023");
+addMovie(
+    "Леди и бродяга", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a79f816c-6d70-48b0-aa74-63bf25f942d2/1920x", 
+    8.5, 9, "cartoon", "23.01.2023");
 
 pasteMovies();
 
