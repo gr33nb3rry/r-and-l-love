@@ -57,7 +57,10 @@ addMovie(
     "Леди и бродяга", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/a79f816c-6d70-48b0-aa74-63bf25f942d2/1920x", 
     8.5, 9, "cartoon", "23.01.2023");
-
+addMovie(
+    "Образцовый самец", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/6d0f23b9-4649-45e2-b435-980e1ae787c3/1920x", 
+    5, 7.6, "movie", "27.01.2023");
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
