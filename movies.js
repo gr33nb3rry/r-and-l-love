@@ -61,6 +61,10 @@ addMovie(
     "Образцовый самец", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/6d0f23b9-4649-45e2-b435-980e1ae787c3/1920x", 
     5, 7.6, "movie", "27.01.2023");
+addMovie(
+    "Карлик нос", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/f64f1b02-6297-4642-ba4f-9585d914b465/1920x", 
+    7.5, 8.8, "cartoon", "30.01.2023");
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
