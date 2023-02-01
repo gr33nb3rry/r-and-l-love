@@ -192,12 +192,24 @@ a {
     }
 }
 @media (max-width: 915px) {
+    .logo_container {
+        height: 120px;
+    }
+    .header_container{
+    }
+    .header_category{
+        padding: 10px 15px 10px 15px;
+    }
+    .header hr {
+        margin-top: 120px;
+    }
+    
     #content_movies_container, .movie_sort_container{
         width: 80%;
     }
     .content_movie, .movie_image{
-        width: 225px;
-        height: 310px;
+        width: 280px;
+        height: 396px;
     }
     .movie_rating, .movie_title {
         width: 205px;
