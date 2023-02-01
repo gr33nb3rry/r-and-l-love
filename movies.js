@@ -65,6 +65,14 @@ addMovie(
     "Карлик нос", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/f64f1b02-6297-4642-ba4f-9585d914b465/1920x", 
     7.5, 8.8, "cartoon", "30.01.2023");
+addMovie(
+    "Волк с Уолл-стрит", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/c5876e81-9dec-43e2-923f-fee2fca85e21/1920x", 
+    8.5, 9.5, "movie", "31.01.2023");
+addMovie(
+    "Человек-паук: Возвращение домой", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c7b5178e-0a26-4bfe-8853-7e826de86ae8/1920x", 
+    9, 8.9, "movie", "01.02.2023");
 pasteMovies();
 
 function addMovie(name, link, rate1, rate2, category, date){
