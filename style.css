@@ -80,7 +80,10 @@ a {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
+    font-family: Arial, sans-serif;
+    color: lightgrey;
 }
 .movie_sort_container button {
     padding: 10px 20px 10px 20px;
@@ -213,8 +216,8 @@ a {
         width: 80%;
     }
     .content_movie, .movie_image{
-        width: 280px;
-        height: 396px;
+        width: 320px;
+        height: 452px;
     }
     .movie_rating, .movie_title {
         width: 205px;

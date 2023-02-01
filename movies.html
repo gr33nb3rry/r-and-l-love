@@ -27,10 +27,19 @@
     <div class="content">
         <h1 style="font-family:Arial;font-size:24px;color:grey;">Мы киноэксперты</h1>
         <div class="movie_sort_container">
-            <button onclick="setShowMovie('all')">Все</button>
-            <button onclick="setShowMovie('anime')">Аниме</button>
-            <button onclick="setShowMovie('cartoon')">Мульты</button>
-            <button onclick="setShowMovie('movie')">Фильмы</button>
+            <div class="width:50%;">
+                Показать:
+                <button onclick="setShowMovie('all')">Все</button>
+                <button onclick="setShowMovie('anime')">Аниме</button>
+                <button onclick="setShowMovie('cartoon')">Мульты</button>
+                <button onclick="setShowMovie('movie')">Фильмы</button>
+            </div>
+            <div class="width:50%;">
+                Сортировать:
+                <button onclick="setShowMovie('all')">По дате</button>
+                <button onclick="setShowMovie('anime')">По рейтингу</button>
+                <button onclick="setShowMovie('cartoon')">По названию</button>
+            </div>
         </div>
         <div id="content_movies_container">
         </div>
