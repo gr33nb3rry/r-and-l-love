@@ -29,16 +29,16 @@
         <div class="movie_sort_container">
             <div class="width:50%;">
                 Показать:
-                <button onclick="setShowMovie('all')">Все</button>
-                <button onclick="setShowMovie('anime')">Аниме</button>
-                <button onclick="setShowMovie('cartoon')">Мульты</button>
-                <button onclick="setShowMovie('movie')">Фильмы</button>
+                <button onclick="setShowMovie('all')" id="show_movie_all">Все</button>
+                <button onclick="setShowMovie('anime')" id="show_movie_anime">Аниме</button>
+                <button onclick="setShowMovie('cartoon')" id="show_movie_cartoon">Мульты</button>
+                <button onclick="setShowMovie('movie')" id="show_movie_movie">Фильмы</button>
             </div>
             <div class="width:50%;">
                 Сортировать:
-                <button onclick="setShowMovie('all')">По дате</button>
-                <button onclick="setShowMovie('anime')">По рейтингу</button>
-                <button onclick="setShowMovie('cartoon')">По названию</button>
+                <button onclick="sortByDate()">Дата</button>
+                <button onclick="sortByRating()">Рейтинг</button>
+                <button onclick="sortByName()">Название</button>
             </div>
         </div>
         <div id="content_movies_container">

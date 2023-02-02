@@ -73,7 +73,9 @@ addMovie(
     "Человек-паук: Возвращение домой", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c7b5178e-0a26-4bfe-8853-7e826de86ae8/1920x", 
     9, 8.9, "movie", "01.02.2023");
+
 pasteMovies();
+pasteShowMovieNumber();
 
 function addMovie(name, link, rate1, rate2, category, date){
     const tmp = [name, link, rate1, rate2, category, date];
@@ -126,7 +128,72 @@ function pasteMovies(){
         }
     }
 }
+function pasteShowMovieNumber(){
+    let numberOfAll = 0;
+    let numberOfAnime = 0;
+    let numberOfCartoon = 0;
+    let numberOfMovie = 0;
+    for (let i = 0; i < movies.length; i++){
+        numberOfAll++;
+        if (movies[i][4] == "anime") numberOfAnime++;
+        else if (movies[i][4] == "cartoon") numberOfCartoon++;
+        else if (movies[i][4] == "movie") numberOfMovie++;
+    }
+
+    let x = ` <span style="color:lightgrey;">`;
+    document.getElementById("show_movie_all").innerHTML += x + `${numberOfAll}</span>`;
+    document.getElementById("show_movie_anime").innerHTML += x + `${numberOfAnime}</span>`;
+    document.getElementById("show_movie_cartoon").innerHTML += x + `${numberOfCartoon}</span>`;
+    document.getElementById("show_movie_movie").innerHTML += x + `${numberOfMovie}</span>`;
+}
 function setShowMovie(genre) {
     showMovie = genre;
+    pasteMovies();
+}
+function sortByRating(){
+    for (let i = 0; i < movies.length - 1; i++){
+        for (let j = 0; j < movies.length - i - 1; j++){
+            if ((movies[j][2] + movies[j][3])/2 > (movies[j + 1][2] + movies[j + 1][3])/2){
+
+                var temp = movies[j];
+                movies[j] = movies[j + 1];
+                movies[j + 1] = temp;
+
+            }
+        }
+    }
+    pasteMovies();
+}
+function sortByDate(){
+    for (let i = 0; i < movies.length - 1; i++){
+        for (let j = 0; j < movies.length - i - 1; j++){
+            let date1 = "" + movies[j][5][8] + movies[j][5][9] 
+                    + movies[j][5][3] + movies[j][5][4] 
+                    + movies[j][5][0] + movies[j][5][1];
+            let date2 = "" + movies[j + 1][5][8] + movies[j + 1][5][9] 
+                    + movies[j + 1][5][3] + movies[j + 1][5][4] 
+                    + movies[j + 1][5][0] + movies[j + 1][5][1];
+
+            if (date1 > date2){
+                var temp = movies[j];
+                movies[j] = movies[j + 1];
+                movies[j + 1] = temp;
+            }
+        }
+    }
+    pasteMovies();
+}
+function sortByName(){
+    for (let i = 0; i < movies.length - 1; i++){
+        for (let j = 0; j < movies.length - i - 1; j++){
+            if (movies[j][0] > movies[j + 1][0]){
+
+                var temp = movies[j];
+                movies[j] = movies[j + 1];
+                movies[j + 1] = temp;
+
+            }
+        }
+    }
     pasteMovies();
 }
