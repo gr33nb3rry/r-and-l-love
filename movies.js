@@ -73,6 +73,10 @@ addMovie(
     "Человек-паук: Возвращение домой", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/c7b5178e-0a26-4bfe-8853-7e826de86ae8/1920x", 
     9, 8.9, "movie", "01.02.2023");
+addMovie(
+    "Интерстеллар", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/78c36c0f-aefd-4102-bc3b-bac0dd4314d8/1920x", 
+    10, 10, "movie", "08.02.2023");
 
 pasteMovies();
 pasteShowMovieNumber();
