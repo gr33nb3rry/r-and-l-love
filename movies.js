@@ -77,6 +77,10 @@ addMovie(
     "Интерстеллар", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/78c36c0f-aefd-4102-bc3b-bac0dd4314d8/1920x", 
     10, 10, "movie", "08.02.2023");
+addMovie(
+    "Титаник", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/4fed2852-f16f-4b0e-bb86-d9b72efced29/1920x", 
+    8.1, 10, "movie", "14.02.2023");
 
 pasteMovies();
 pasteShowMovieNumber();
