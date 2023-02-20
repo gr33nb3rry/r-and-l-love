@@ -81,6 +81,10 @@ addMovie(
     "Титаник", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/4fed2852-f16f-4b0e-bb86-d9b72efced29/1920x", 
     8.1, 10, "movie", "14.02.2023");
+addMovie(
+    "Человек-паук: Вдали от дома", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/5ed0991c-23ce-43ba-a5a9-cf8bbcd37e65/1920x", 
+    8, 8.5, "movie", "19.02.2023");
 
 pasteMovies();
 pasteShowMovieNumber();
