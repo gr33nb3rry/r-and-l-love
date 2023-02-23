@@ -85,6 +85,10 @@ addMovie(
     "Человек-паук: Вдали от дома", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/5ed0991c-23ce-43ba-a5a9-cf8bbcd37e65/1920x", 
     8, 8.5, "movie", "19.02.2023");
+addMovie(
+    "Человек-паук: Нет пути домой", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e499c46e-d5b3-45a8-8de4-7252c9933edc/1920x", 
+    9.5, 9.2, "movie", "22.02.2023");
 
 pasteMovies();
 pasteShowMovieNumber();
