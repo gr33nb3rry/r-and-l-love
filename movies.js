@@ -89,6 +89,22 @@ addMovie(
     "Человек-паук: Нет пути домой", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e499c46e-d5b3-45a8-8de4-7252c9933edc/1920x", 
     9.5, 9.2, "movie", "22.02.2023");
+addMovie(
+    "Человек-бензопила", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/8205541e-8436-41f8-8dcf-720400965d5e/1920x", 
+    7.3, 7.2, "anime", "02.03.2023");
+addMovie(
+    "Король Стейтен-Айленда", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/010a5e1d-a59e-4f23-9006-3c582327a7e7/1920x", 
+    7, 7, "movie", "07.03.2023");
+addMovie(
+    "Паразиты", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/92273c64-1b90-426c-9737-e15cbd94cdd4/1920x", 
+    9.5, 8.8, "movie", "08.03.2023");
+addMovie(
+    "Полный расколбас", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/a090d4ad-55ff-4187-a706-77a26c482ede/1920x", 
+    6.5, 9, "cartoon", "12.03.2023");
 
 pasteMovies();
 pasteShowMovieNumber();
