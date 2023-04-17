@@ -135,6 +135,11 @@ addMovie(
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/70ab6f7d-91e1-4489-b095-a1fb2a30ca8b/1920x", 
     8.9, 8.5, "movie", "29.03.2023"
 );
+addMovie(
+    "Истребитель демонов: Квартал красных фонарей", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/dcd34772-abd8-4935-adb6-8eb8224f6822/1920x", 
+    9, 8, "anime", "17.04.2023"
+);
 
 
 pasteMovies();
