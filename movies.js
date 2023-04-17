@@ -105,6 +105,37 @@ addMovie(
     "Полный расколбас", 
     "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/a090d4ad-55ff-4187-a706-77a26c482ede/1920x", 
     6.5, 9, "cartoon", "12.03.2023");
+addMovie(
+    "Зависнуть в Палм-Спрингс", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/2d336bd6-ed0e-4cef-afb5-0bcb7d505e99/1920x", 
+    7.6, 4.5, "movie", "17.03.2023"
+);
+addMovie(
+    "Любовь-морковь по-французски", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1704946/dbc94e6a-6266-4b4b-b6fb-efb59480890d/1920x", 
+    6.5, 5.7, "movie", "19.03.2023"
+);
+addMovie(
+    "Дикие истории", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/6d9e445b-8e17-4620-9057-0364267cdd9a/1920x", 
+    7.1, 4.4, "movie", "20.03.2023"
+);
+addMovie(
+    "Рапунцель: Запутанная история", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/7c4dcf04-13f9-43b0-9422-29c622e3bf23/1920x", 
+    8, 10, "cartoon", "20.03.2023"
+);
+addMovie(
+    "Красотка на всю голову", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/2e5925ce-bad2-405d-ad78-abe71bff25d3/1920x", 
+    6.7, 9.2, "movie", "26.03.2023"
+);
+addMovie(
+    "Палмер", 
+    "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/70ab6f7d-91e1-4489-b095-a1fb2a30ca8b/1920x", 
+    8.9, 8.5, "movie", "29.03.2023"
+);
+
 
 pasteMovies();
 pasteShowMovieNumber();
